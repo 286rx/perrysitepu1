@@ -1,0 +1,42 @@
+<!Doctype HTML>
+
+<HTML>
+
+<head>
+    <title> Homepage </title>
+    <style>
+        body {
+          text-align: center;
+          margin: 20px;
+        }
+      
+        img {
+          border: 10px;
+          margin: 10px 0;
+        }
+      
+        p {
+          font-size: 18px;
+        }
+      
+        hr {
+          margin: 30px 0;
+        }
+      </style>
+</head>
+
+<body>
+    <body style="background-color: lightblue;">
+
+ <a href="{{url_for('Percobaan')}}">
+    <h1> Beranda </h1>
+ </a>
+<a href="{{url_for('About')}}">
+    <h1> About Me </h1>
+</a>
+ <hr> 
+<img src="{{url_for('static', filename='_PYM5774.JPG')}}" height="350"> 
+<p>Halo semua! Nama saya <u>Perry Melvin Sitepu </u>, lahir pada 24 Januari 2007 di Bekasi, Jawa Barat. <br> Saya adalah seorang mahasiswa yang memiliki ketertarikan di bidang teknologi. <br> Saya senang belajar hal baru, kebanyakan seperti dari website dan juga youtube. <br> Nah, untuk web sendiri saya belajar code dari codedex dan dari youtube sendiri, saya suka menonton The Organic Chemistry Tutor  <br>Senang bisa berkenalan dengan kalian semua!</p>
+</body>
+
+</HTML>
